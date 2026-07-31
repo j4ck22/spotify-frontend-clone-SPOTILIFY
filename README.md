@@ -23,10 +23,6 @@ This project was created to improve my front-end development skills by recreatin
 - Hover animations
 - Mobile-first design
 
-## 📷 Preview
-
-![Preview](./assets/images/preview.png)
-
 ## 🌐 Live Demo
 
 https://j4ck22.github.io/spotify-frontend-clone-SPOTILIFY/
