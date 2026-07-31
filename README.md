@@ -29,7 +29,7 @@ This project was created to improve my front-end development skills by recreatin
 
 ## 🌐 Live Demo
 
-https://seu-usuario.github.io/spotify-clone/
+https://j4ck22.github.io/spotify-frontend-clone-SPOTILIFY/
 
 ## 📄 License
 
