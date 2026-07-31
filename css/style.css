@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.imgMusic{
+    width: 250px;
+    height: 150px;
+}
+.imgartistas{
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
+#butaoidioma{
+    background-color: RGBA(0,0,0,0);
+    border: 2px solid white;
+    padding: 5px;
+    color: white;
+}
+.rodape1{
+    flex-wrap: wrap;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+    display: flex;
+    padding-left: 15px;
+}
+#Cookies1{
+    color: white;
+}
+.footer_formatation{
+    color: rgb(128, 127, 127);
+}
+.h4branco{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxconteudo{
+    background-color: rgb(61, 60, 60);
+    border-radius: 30px;
+    color: white;
+    padding: 25px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 20px;
+}
+.leftside{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-weight: bold;
+    width: 28%;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.Conteudo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#header_div_right{
+    display: flex;
+    align-items: center; 
+    gap: 10px;    
+    padding: 5px;
+}
+#search_box {
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 30px;
+    padding: 10px 15px;
+    color: rgb(85, 84, 84);
+    width: 300px;
+}
+#IMG_HOME{
+    cursor: pointer;
+}
+.Header_Direita{
+    align-items: center;
+    margin-bottom: 25px;
+}
+/* Input da busca */
+#search_box input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.clear_icon {
+    cursor: pointer;
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+}
+
+/* Separador visual entre input e ícone */
+.clear_icon {
+    border-left: 1px solid rgb(66, 63, 63);
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#input_busca{
+    background-color: rgb(56, 55, 55);
+    color:rgb(170, 170, 170);
+    border-radius: 30px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header_div_left{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: rgb(34, 34, 34);
+    border-radius: 30px;
+    padding: 10px;
+    color: rgb(85, 84, 84);
+}
+body{
+    background-color: rgb(19, 17, 17);
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    padding: 10px;
+    width: calc(100% - 20px);
+    z-index: 1;
+}
+footer{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(231, 78, 154), rgb(108, 157, 214));
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    padding: 10px;
+    z-index: 1000; 
+
+}
+button{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+}
+#div-left{
+    color: white;
+    margin-left: 20px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(116, 116, 116);
+}
+h3{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.opcoes2{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;align-items: center;
+    gap: 20px;
+}
+#buttonentrar{
+    padding: auto;
+}
+hr{
+    margin: 20px;
+}
+.secao-musicas {
+    margin: 40px;
+    color: white;
+    font-family: sans-serif;
+  }
+.topo-secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+.topo-secao h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+.topo-secao a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+  }
+.topo-secao a:hover {
+    text-decoration: underline;
+  }
+.lista-musicas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+.musica {
+    width: 150px;
+  }
+.musica img {
+    width: 100%;
+    border-radius: 8px;
+  }
+.musica .titulo {
+    margin: 10px 0 4px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+.musica .artista {
+    margin: 0;
+    font-size: 12px;
+    color: #b3b3b3;
+  }
