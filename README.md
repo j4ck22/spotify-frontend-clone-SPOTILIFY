@@ -27,6 +27,8 @@ This project was created to improve my front-end development skills by recreatin
 
 https://j4ck22.github.io/spotify-frontend-clone-SPOTILIFY/
 
+Login page: https://j4ck22.github.io/spotify-frontend-clone-SPOTILIFY/login.html
+
 ## 📄 License
 
 This project was created for educational purposes only.
